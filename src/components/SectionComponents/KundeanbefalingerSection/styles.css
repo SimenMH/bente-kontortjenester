@@ -1,0 +1,16 @@
+.kundeanbefalinger-container {
+  background-color: #222a38;
+}
+
+.kundeanbefalinger-container .section-title {
+  color: #fff;
+}
+
+.kundeanbefalinger-container p {
+  font-style: italic;
+  color: hsla(0, 0%, 100%, 0.8);
+  width: 75vw;
+  max-width: 65rem;
+  text-align: center;
+  font-size: 1.25rem;
+}

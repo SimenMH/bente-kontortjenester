@@ -1,0 +1,32 @@
+.kontakt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+  background: linear-gradient(rgba(35, 50, 82, 0.7), rgba(0, 0, 0, 0.784)),
+    url('../../../assets/background.jpg') no-repeat center;
+}
+
+.kontakt-container .section-title {
+  color: #fff;
+  font-size: 3.625rem;
+}
+
+.kontakt-container .section-subtext {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.bestill-button {
+  border: #fff solid 2px;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0.25rem 0 rgba(175, 175, 175, 0.358);
+  transition: 0.3s;
+  margin-top: 20px;
+}

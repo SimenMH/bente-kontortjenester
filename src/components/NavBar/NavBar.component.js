@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div className='nav-container'>
       <div className='navbar'>
-        <div className='logo-text'>BS Kontortjenester</div>
+        <div className='logo-text'>Benko AS</div>
         <ul className='nav-menu'>
           <li>
             <a href='#forside'>

@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #666;
+  background-color: #f9f7fa;
+  text-align: center;
+  padding: 1.875rem;
+  font-size: 0.8125rem;
+  line-height: 25px;
+  font-family: Fira Sans, Fira-Sans-Fallback, sans-serif;
+}

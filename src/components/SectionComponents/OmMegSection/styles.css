@@ -1,0 +1,41 @@
+.om-meg-section {
+  display: flex;
+  font-family: Proxima Nova, Helvetica, Proxima-Nova-Fallback, sans-serif;
+  margin: 20px 0;
+  color: #393939;
+}
+
+.om-meg-portrait {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin: 0 120px;
+}
+
+.om-meg-portrait img {
+  width: 130%;
+  margin: -5px -58px;
+  position: relative;
+}
+
+.om-meg-text {
+  max-width: 450px;
+}
+
+.om-meg-navn {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.om-meg-jobbtittel {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.om-meg-section p {
+  font-size: 1.1rem;
+  color: #222a38;
+  line-height: 1.4;
+}
