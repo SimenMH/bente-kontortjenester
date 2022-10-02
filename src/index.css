@@ -1,3 +1,10 @@
+:root {
+  --primary-dark-color: #222a38;
+  --secondary-dark-color: #6b6b6b;
+  --primary-light-color: hsla(0, 0%, 100%, 0.8);
+  --secondary-light-color: #6678b7;
+}
+
 body {
   margin: 0;
   font-family: Fira Sans, Fira-Sans-Fallback, sans-serif;

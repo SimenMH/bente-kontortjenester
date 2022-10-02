@@ -2,8 +2,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: #666;
-  background-color: #f9f7fa;
+  color: var(--secondary-dark-color);
+  background-color: var(--primary-light-color);
   text-align: center;
   padding: 1.875rem;
   font-size: 0.8125rem;

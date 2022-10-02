@@ -1,4 +1,3 @@
-import './App.css';
 import NavBar from './components/NavBar/NavBar.component';
 import Header from './components/Header/HeaderComponent';
 import TjenesterSection from './components/SectionComponents/TjenesterSection/TjenesterSectionComponent';

@@ -11,7 +11,7 @@
   align-items: center;
   height: 85px;
   width: 100%;
-  color: #fff;
+  color: var(--primary-light-color);
   background-color: rgba(33, 33, 33, 0.9);
   position: absolute;
   top: 0;
@@ -42,7 +42,7 @@
 }
 
 .nav-menu li:hover {
-  border-top: rgb(102, 120, 183) solid;
+  border-top: var(--secondary-light-color) solid;
 }
 
 .nav-menu li:first-child {
@@ -50,7 +50,7 @@
 }
 
 .nav-menu a {
-  color: #fff;
+  color: var(--primary-light-color);
   text-decoration: none;
   height: 100%;
   width: 100%;

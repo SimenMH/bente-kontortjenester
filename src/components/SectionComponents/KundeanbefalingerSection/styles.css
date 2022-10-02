@@ -1,14 +1,14 @@
 .kundeanbefalinger-container {
-  background-color: #222a38;
+  background-color: var(--primary-dark-color);
 }
 
 .kundeanbefalinger-container .section-title {
-  color: #fff;
+  color: var(--primary-light-color);
 }
 
 .kundeanbefalinger-container p {
   font-style: italic;
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--primary-light-color);
   width: 75vw;
   max-width: 65rem;
   text-align: center;
