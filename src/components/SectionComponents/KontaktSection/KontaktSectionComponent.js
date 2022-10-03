@@ -7,7 +7,15 @@ function KontaktSection() {
       <div className='inner-section-container'>
         <div className='section-title'>Ta kontakt i dag</div>
         <div className='section-subtext'>Første konsultasjon er gratis</div>
-        <div className='bestill-button'>Bestill gratis konsultasjon</div>
+        <a
+          href='mailto: simenmelo@gmail.com'
+          target='_blank'
+          rel='noreferrer'
+          className='bestill-button'
+        >
+          Bestill gratis konsultasjon
+        </a>
+        <p className='kontakt-email'>Email: bente.s.herland@gmail.com</p>
       </div>
     </div>
   );

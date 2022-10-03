@@ -6,11 +6,18 @@
   color: var(--primary-light-color);
 }
 
-.kundeanbefalinger-container p {
-  font-style: italic;
+.kundeanbefalinger-quote p {
   color: var(--primary-light-color);
   width: 75vw;
   max-width: 65rem;
   text-align: center;
   font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.kundeanbefalinger-quote p:last-child {
+  font-style: italic;
+  color: #cad2e0;
+  font-size: 1.2rem;
+  margin-top: 0;
 }

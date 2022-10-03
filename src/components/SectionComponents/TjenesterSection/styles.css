@@ -16,11 +16,20 @@
 }
 
 .tjenester-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 115px;
   height: 115px;
   border-radius: 50%;
-  border: solid var(--primary-dark-color) 2px;
+  /* border: solid var(--primary-dark-color) 3px; */
   margin-bottom: 1rem;
+}
+
+.tjenester-item-icon img {
+  width: 80%;
+  filter: invert(11%) sepia(8%) saturate(2706%) hue-rotate(180deg)
+    brightness(103%) contrast(87%);
 }
 
 .tjenester-item-title {
@@ -52,4 +61,31 @@
 
 .tilbud-button:hover {
   border-color: var(--primary-dark-color);
+}
+
+.tjenester-more-container {
+  padding: 25px;
+  border-bottom: var(--secondary-dark-color) solid 1px;
+  border-top: var(--secondary-dark-color) solid 1px;
+  margin: 0 30px 15px 30px;
+}
+
+.tjenester-more-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-dark-color);
+  text-align: center;
+}
+
+.tjenester-more-subtitle {
+  font-size: 1.5rem;
+  color: var(--primary-dark-color);
+  text-align: center;
+  line-height: 1.4;
+  padding-top: 0.25rem;
+}
+
+.tjenester-more-container p {
+  font-size: 1.25rem;
+  padding: 0 50px;
 }

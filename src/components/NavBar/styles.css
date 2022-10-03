@@ -45,9 +45,9 @@
   border-top: var(--secondary-light-color) solid;
 }
 
-.nav-menu li:first-child {
+/* .nav-menu li:first-child {
   border-top: rgb(102, 120, 183) solid;
-}
+} */
 
 .nav-menu a {
   color: var(--primary-light-color);
