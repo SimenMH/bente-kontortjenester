@@ -58,3 +58,29 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 950px) {
+  .nav-menu li {
+    display: none;
+  }
+  .logo-text {
+    margin-left: 40px;
+  }
+  .nav-container {
+    position: absolute;
+  }
+  .navbar {
+    height: 60px;
+    justify-content: left;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo-text {
+    font-size: 1.2rem;
+  }
+  .navbar {
+    height: 60px;
+  }
+}

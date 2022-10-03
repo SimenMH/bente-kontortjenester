@@ -10,3 +10,7 @@ footer {
   line-height: 25px;
   font-family: Fira Sans, Fira-Sans-Fallback, sans-serif;
 }
+
+footer a {
+  opacity: 0.75;
+}

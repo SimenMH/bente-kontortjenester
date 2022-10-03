@@ -21,3 +21,12 @@
   font-size: 1.2rem;
   margin-top: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .kundeanbefalinger-quote p {
+    font-size: 1rem;
+  }
+  .kundeanbefalinger-quote p:last-child {
+    font-size: 1rem;
+  }
+}

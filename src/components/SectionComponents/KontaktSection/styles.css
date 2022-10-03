@@ -37,3 +37,22 @@
   text-align: center;
   font-size: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .kontakt-container .section-title {
+    font-size: 2.5rem;
+  }
+  .kontakt-container .section-subtext {
+    font-size: 1.1rem;
+  }
+
+  .bestill-button {
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0.75rem 1.75rem;
+  }
+
+  .kontakt-email {
+    font-size: 0.8rem;
+  }
+}

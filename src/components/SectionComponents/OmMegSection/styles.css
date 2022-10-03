@@ -39,3 +39,41 @@
   color: var(--primary-dark-color);
   line-height: 1.4;
 }
+
+@media only screen and (max-width: 950px) {
+  .om-meg-portrait {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 0 60px;
+  }
+  .om-meg-portrait img {
+    width: 130%;
+    margin: -5px -35px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .om-meg-section {
+    margin: 0 25px;
+  }
+  .om-meg-navn {
+    font-size: 1.3rem;
+  }
+
+  .om-meg-jobbtittel {
+    font-size: 1rem;
+  }
+
+  .om-meg-section p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .om-meg-portrait {
+    display: none;
+  }
+}

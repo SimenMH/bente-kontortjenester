@@ -89,3 +89,54 @@
   font-size: 1.25rem;
   padding: 0 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .tjenester-item-title {
+    font-size: 1rem;
+  }
+  .tjenester-more-title {
+    font-size: 1.25rem;
+  }
+  .tjenester-more-subtitle {
+    font-size: 1rem;
+  }
+  .tjenester-item-text {
+    font-size: 1rem;
+  }
+
+  .tjenester-more-container p {
+    font-size: 1rem;
+    padding: 0 5vw;
+  }
+
+  .tilbud-button {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tjenester-item-title {
+    font-size: 1rem;
+  }
+  .tjenester-more-title {
+    font-size: 1rem;
+  }
+  .tjenester-more-subtitle {
+    font-size: 1rem;
+  }
+  .tjenester-item-text {
+    font-size: 1rem;
+  }
+
+  .tjenester-more-container {
+    padding: 15px;
+    border-bottom: var(--secondary-dark-color) solid 1px;
+    border-top: var(--secondary-dark-color) solid 1px;
+    margin: 0 5vw 15px 5vw;
+  }
+
+  .tjenester-item {
+    width: 100%;
+  }
+}
