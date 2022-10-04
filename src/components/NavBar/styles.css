@@ -68,14 +68,14 @@
   .nav-menu li {
     display: none;
   }
-  .logo-text {
+  .logo-text-container {
     margin-left: 40px;
   }
   .nav-container {
     position: absolute;
   }
   .navbar {
-    height: 60px;
+    height: 70px;
     justify-content: left;
     align-items: center;
   }
