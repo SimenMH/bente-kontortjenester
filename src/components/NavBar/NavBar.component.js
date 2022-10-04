@@ -10,7 +10,10 @@ function NavBar() {
   return (
     <div className='nav-container'>
       <div className='navbar'>
-        <div className='logo-text'>Benko Kontortjenester</div>
+        <div className='logo-text-container'>
+          <div className='logo-text'>BenKo</div>
+          <div>Bentes Kontortjenester</div>
+        </div>
         <ul className='nav-menu'>
           <li>
             <a href='#forside' onClick={e => navigate(e, 'forside')}>
