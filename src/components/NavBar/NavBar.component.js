@@ -1,4 +1,5 @@
 import './styles.css';
+// import Logo from '../../assets/logo.png';
 
 function NavBar() {
   const navigate = (e, id) => {
@@ -11,6 +12,7 @@ function NavBar() {
     <div className='nav-container'>
       <div className='navbar'>
         <div className='logo-text-container'>
+          {/* <img className='logo' src={Logo} alt='logo' /> */}
           <div className='logo-text'>BenKo</div>
           <div>Bentes Kontortjenester</div>
         </div>

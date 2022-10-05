@@ -17,6 +17,10 @@
   top: 0;
 }
 
+.logo {
+  height: 80px;
+}
+
 .logo-text {
   font-size: 24px;
   font-weight: 500;
@@ -49,10 +53,6 @@
 .nav-menu li:hover {
   border-top: var(--secondary-light-color) solid;
 }
-
-/* .nav-menu li:first-child {
-  border-top: rgb(102, 120, 183) solid;
-} */
 
 .nav-menu a {
   color: var(--primary-light-color);
