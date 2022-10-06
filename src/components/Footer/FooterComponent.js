@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <p>
         © 2022 Benko ved Bente Herland <br /> {/* (+47) 123 45 678 |*/}
-        bente.s.herland@gmail.com
+        post@benko.no
       </p>
       <p>
         Org.nr 926 150 758 <br />{' '}
