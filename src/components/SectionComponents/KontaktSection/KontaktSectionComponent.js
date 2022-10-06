@@ -8,14 +8,14 @@ function KontaktSection() {
         <div className='section-title'>Ta kontakt i dag</div>
         <div className='section-subtext'>Første konsultasjon er gratis</div>
         <a
-          href='mailto: simenmelo@gmail.com'
+          href='mailto: post@benko.no'
           target='_blank'
           rel='noreferrer'
           className='bestill-button'
         >
           Bestill gratis konsultasjon
         </a>
-        <p className='kontakt-email'>Email: bente.s.herland@gmail.com</p>
+        <p className='kontakt-email'>Email: post@benko.no</p>
       </div>
     </div>
   );
