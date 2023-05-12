@@ -1,0 +1,40 @@
+{
+  "Header": {
+    "Tittel": "REGNSKAPSRÅDGIVNING",
+    "Underskrift": "Erfaren Regnskapskonsulent"
+  },
+  "Tjenester": {
+    "Tittel": "Et rimelig alternativ til regnskapsfører",
+    "Underskrift": "Les mer om min virksomhet",
+    "LesMer": {
+      "Tittel": "",
+      "Underskrift": "",
+      "Tekst": ""
+    }
+  },
+  "Kundeanbefalinger": {
+    "Tittel": "",
+    "Underskrift": "",
+    "Anbefalinger": [
+      {
+        "Tekst": "",
+        "Forfatter": ""
+      },
+      {
+        "Tekst": "",
+        "Forfatter": ""
+      },
+      {
+        "Tekst": "",
+        "Forfatter": ""
+      }
+    ]
+  },
+  "OmMeg": {
+    "Tittel": "",
+    "Underskrift": "",
+    "Navn": "",
+    "Jobbtittel": "",
+    "Tekst": ""
+  }
+}
