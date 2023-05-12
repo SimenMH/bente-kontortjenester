@@ -30,9 +30,9 @@ const tjenester = [
 function TjenesterItems() {
   return (
     <div className='tjenester-item-container'>
-      {tjenester.map(tjeneste => {
+      {tjenester.map((tjeneste, idx) => {
         return (
-          <div className='tjenester-item'>
+          <div key={idx} className='tjenester-item'>
             <div className='tjenester-item-icon'>
               <img src={tjeneste.icon} alt='icon' />
             </div>

@@ -1,9 +1,14 @@
 .ommeg-container {
+  background-color: var(--primary-light-color);
+  color: var(--primary-dark-color);
+}
+
+.ommeg-dark {
   background-color: var(--primary-dark-color);
   color: var(--primary-light-color);
 }
 
-.ommeg-container .section-title {
+.ommeg-dark .section-title {
   color: var(--primary-light-color);
 }
 

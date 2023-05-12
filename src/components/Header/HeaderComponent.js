@@ -1,10 +1,10 @@
 import './styles.css';
 
-function Header() {
+function Header({ siteContent }) {
   return (
     <div className='header-container' id='forside'>
-      <div className='header-title'>REGNSKAPSRÅDGIVNING</div>
-      <div className='header-slogan'>Erfaren Regnskapskonsulent</div>
+      <div className='header-title'>{siteContent.Header.Tittel}</div>
+      <div className='header-slogan'>{siteContent.Header.Underskrift}</div>
     </div>
   );
 }

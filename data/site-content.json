@@ -4,37 +4,34 @@
     "Underskrift": "Erfaren Regnskapskonsulent"
   },
   "Tjenester": {
-    "Tittel": "Et rimelig alternativ til regnskapsfører",
-    "Underskrift": "Les mer om min virksomhet",
+    "Tittel": "Driver du et lite foretak og synes at du betaler altfor mye for regnskapstjenester?",
+    "Underskrift": "Å benytte en rimelig rådgivningstjeneste kan være løsningen for deg!",
     "LesMer": {
-      "Tittel": "",
+      "Tittel": "Et rimelig alternativ til regnskapsfører",
       "Underskrift": "",
-      "Tekst": ""
+      "Tekst": [
+        "Jeg har kunnskapen, erfaringen og tyngden, og viser hvordan du enkelt kan føre regnskapet selv og samtidig være trygg på at alt blir håndtert riktig.",
+        "Du velger selv hva og hvor mye du gjør på egenhånd, jeg kontrollerer at alt er gjort på riktig måte og guider deg der du er usikker. Du vil bli overrasket over hvor få timer som skal til når alt er tilrettelagt og systematisert.",
+        "Dersom du ønsker å gjøre mest mulig selv vil du etterhvert trenge færre og færre timer med veiledning.Vil du gjøre minst mulig løser vi det også uten at det koster en formue.",
+        "Selve bokføringen og rapporteringen gjør du, men med enkle rutiner og riktig tilrettelegging krever det ingen forkunnskaper og tar minimalt med tid.",
+        "Og samtidig får du bedre oversikt og verdifull innsikt i regnskapet ditt."
+      ]
     }
   },
   "Kundeanbefalinger": {
-    "Tittel": "",
-    "Underskrift": "",
-    "Anbefalinger": [
-      {
-        "Tekst": "",
-        "Forfatter": ""
-      },
-      {
-        "Tekst": "",
-        "Forfatter": ""
-      },
-      {
-        "Tekst": "",
-        "Forfatter": ""
-      }
-    ]
+    "Tittel": "Uttalelser fra kunder",
+    "Anbefalinger": []
   },
   "OmMeg": {
-    "Tittel": "",
-    "Underskrift": "",
-    "Navn": "",
-    "Jobbtittel": "",
-    "Tekst": ""
+    "Tittel": "Om meg",
+    "Navn": "Bente S Herland",
+    "Jobbtittel": "Regnskapskonsulent",
+    "Tekst": [
+      "Mange års erfaring med regnskap, lønn, avstemming, årsoppgjør, prosjektregnskap, analyser m.m.",
+      "Bakgrunn bl.a. som Regnskapsansvarlig og Fagansvarlig hos store og mellomstore bedrifter",
+      "Erfaring med Enkeltpersonforetak, AS, ASA, ANS og DA",
+      "Gode referanser",
+      "Holder til i Bergen, men tar oppdrag over hele landet."
+    ]
   }
 }

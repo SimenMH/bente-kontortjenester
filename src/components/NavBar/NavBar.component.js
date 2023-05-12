@@ -1,7 +1,7 @@
 import './styles.css';
 // import Logo from '../../assets/logo.png';
 
-function NavBar() {
+function NavBar({ siteContent }) {
   const navigate = (e, id) => {
     let el = document.getElementById(id);
     e.preventDefault();
@@ -27,14 +27,17 @@ function NavBar() {
               <p>Mine Tjenester</p>
             </a>
           </li>
-          <li>
-            <a
-              href='#kundeanbefalinger'
-              onClick={e => navigate(e, 'kundeanbefalinger')}
-            >
-              <p>Kundeanbefalinger</p>
-            </a>
-          </li>
+          {siteContent.Kundeanbefalinger.Anbefalinger.length > 0 ? (
+            <li>
+              <a
+                href='#kundeanbefalinger'
+                onClick={e => navigate(e, 'kundeanbefalinger')}
+              >
+                <p>Kundeanbefalinger</p>
+              </a>
+            </li>
+          ) : null}
+
           <li>
             <a href='#om-meg' onClick={e => navigate(e, 'om-meg')}>
               <p>Om Meg</p>
