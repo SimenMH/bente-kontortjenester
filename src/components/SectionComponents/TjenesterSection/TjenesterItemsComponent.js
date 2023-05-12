@@ -37,7 +37,7 @@ function TjenesterItems() {
               <img src={tjeneste.icon} alt='icon' />
             </div>
             <div className='tjenester-item-title'>{tjeneste.title}</div>
-            <div className='tjenester-item-text'>{tjeneste.text}</div>
+            {/* <div className='tjenester-item-text'>{tjeneste.text}</div> */}
           </div>
         );
       })}

@@ -1,8 +1,16 @@
+.ommeg-container {
+  background-color: var(--primary-dark-color);
+  color: var(--primary-light-color);
+}
+
+.ommeg-container .section-title {
+  color: var(--primary-light-color);
+}
+
 .om-meg-section {
   display: flex;
   font-family: Proxima Nova, Helvetica, Proxima-Nova-Fallback, sans-serif;
   margin: 20px 0;
-  color: var(--primary-dark-color);
 }
 
 .om-meg-portrait {
@@ -36,7 +44,6 @@
 
 .om-meg-section p {
   font-size: 1.1rem;
-  color: var(--primary-dark-color);
   line-height: 1.4;
 }
 

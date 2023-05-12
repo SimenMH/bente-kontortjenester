@@ -28,13 +28,18 @@
 .section-subtext {
   color: var(--secondary-dark-color);
   font-size: 1.5rem;
-  margin-top: -0.875rem;
-  margin-bottom: 12px;
+  /* margin-top: -0.875rem;
+  margin-bottom: 12px; */
+  margin: -0.875rem 12px 12px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 830px) {
   .section-title {
     font-size: 2.1rem;
+  }
+  .section-subtext {
+    font-size: 1.2rem;
   }
 }
 
