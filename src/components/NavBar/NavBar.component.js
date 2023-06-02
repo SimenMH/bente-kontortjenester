@@ -5,8 +5,19 @@ function NavBar({ siteContent }) {
   const navigate = (e, id) => {
     let el = document.getElementById(id);
     e.preventDefault();
-    el && el.scrollIntoView({ behavior: 'smooth' });
+    el && scrollToTargetAdjusted(el);
   };
+
+  function scrollToTargetAdjusted(element) {
+    const headerOffset = 85;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }
 
   return (
     <div className='nav-container'>
