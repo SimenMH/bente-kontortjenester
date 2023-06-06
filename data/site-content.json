@@ -1,20 +1,21 @@
 {
   "Header": {
-    "Tittel": "REGNSKAPSRÅDGIVNING",
-    "Underskrift": "Erfaren Regnskapskonsulent"
+    "Tittel": "REGNSKAPSASSISTENTEN",
+    "Underskrift": "En hjelpende hånd for deg som ønsker å føre ditt eget regnskap uten regnskapsfører."
   },
   "Tjenester": {
-    "Tittel": "Driver du et lite foretak og synes at du betaler altfor mye for regnskapstjenester?",
+    "Tittel": "Driver du et lite foretak og synes at du betaler mye for regnskapstjenester?",
     "Underskrift": "Å benytte en rimelig rådgivningstjeneste kan være løsningen for deg!",
     "LesMer": {
       "Tittel": "Et rimelig alternativ til regnskapsfører",
       "Underskrift": "",
       "Tekst": [
-        "Jeg har kunnskapen, erfaringen og tyngden, og viser hvordan du enkelt kan føre regnskapet selv og samtidig være trygg på at alt blir håndtert riktig.",
-        "Du velger selv hva og hvor mye du gjør på egenhånd, jeg kontrollerer at alt er gjort på riktig måte og guider deg der du er usikker. Du vil bli overrasket over hvor få timer som skal til når alt er tilrettelagt og systematisert.",
-        "Dersom du ønsker å gjøre mest mulig selv vil du etterhvert trenge færre og færre timer med veiledning.Vil du gjøre minst mulig løser vi det også uten at det koster en formue.",
-        "Selve bokføringen og rapporteringen gjør du, men med enkle rutiner og riktig tilrettelegging krever det ingen forkunnskaper og tar minimalt med tid.",
-        "Og samtidig får du bedre oversikt og verdifull innsikt i regnskapet ditt."
+        "Regnskapstjenester kan være både tidkrevende og kostbare. Mange små bedrifter og selvstendig næringsdrivende velger derfor å føre regnskapet selv, men kan likevel føle seg usikre på om alt gjøres riktig og effektivt.",
+        "Jeg har kunnskapen, erfaringen og ekspertisen som trengs, og viser deg hvordan du enkelt kan føre regnskapet selv samtidig som du kan være trygg på at alt blir håndtert riktig.",
+        "Du velger selv hva og hvor mye du ønsker å gjøre på egenhånd, jeg kontrollerer at alt blir gjort på riktig måte og veileder deg der du er usikker. Sammen jobber vi med forberedelser, etablerer rutiner og sørger for at du har de riktige systemene på plass. I tillegg tilbyr jeg veiledning og råd om mer effektive metoder. ",
+        "Dersom du foretrekker å håndtere størstedelen av arbeidet selv, vil du gradvis trenge færre veiledningstimer. Vil du gjøre minst mulig løser vi det også uten at det koster en formue.",
+        "Du vil være ansvarlig for selve bokføringen og rapporteringen, men med enkle rutiner og riktig oppsett krever det ingen forkunnskaper og minimal tidsinvestering.",
+        "I tillegg får du bedre oversikt og verdifull innsikt i regnskapet ditt."
       ]
     }
   },
@@ -24,7 +25,7 @@
   },
   "OmMeg": {
     "Tittel": "Om meg",
-    "Navn": "Bente S Herland",
+    "Navn": "Bente S. Herland",
     "Jobbtittel": "Regnskapskonsulent",
     "Tekst": [
       "Mange års erfaring med regnskap, lønn, avstemming, årsoppgjør, prosjektregnskap, analyser m.m.",
