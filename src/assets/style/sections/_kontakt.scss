@@ -1,0 +1,131 @@
+.KontaktSection {
+  background-color: $primary-color;
+  position: relative;
+}
+
+.Kontakt {
+  display: flex;
+  padding: 180px 0;
+  justify-content: center;
+  gap: 200px;
+
+  @media #{$mq-lg} {
+    gap: 120px;
+  }
+
+  @media #{$mq-md} {
+    gap: 0;
+    justify-content: space-around;
+  }
+
+  @media #{$mq-s} {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__ConsultationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__Button,
+  &__EmailButton {
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+
+    &:hover {
+      background: #d6e6fe;
+    }
+  }
+
+  &__EmailButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  &__Title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+
+    @media #{$mq-s} {
+      font-size: 32px;
+    }
+  }
+
+  &__Subtext {
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+
+    @media #{$mq-s} {
+      font-size: 18px;
+    }
+  }
+
+  &__DuoBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .InnerBox {
+      position: absolute;
+
+      &:nth-child(1) {
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+      }
+
+      &:nth-child(2) {
+        top: 100px;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+      }
+    }
+  }
+
+  &__TrioBox {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+
+    .InnerBox {
+      position: absolute;
+
+      &:nth-child(1) {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+      &:nth-child(2) {
+        top: 100px;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+      }
+
+      &:nth-child(3) {
+        top: 70px;
+        left: 150px;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+}
