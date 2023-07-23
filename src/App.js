@@ -1,10 +1,10 @@
-import NavBar from './components/NavBar/NavBar.component';
-import Header from './components/Header/HeaderComponent';
-import TjenesterSection from './components/SectionComponents/TjenesterSection/TjenesterSectionComponent';
-import KundeanbefalingerSection from './components/SectionComponents/KundeanbefalingerSection/KundeanbefalingerSectionComponent';
-import OmMegSection from './components/SectionComponents/OmMegSection/OmMegSectionComponent';
-import KontaktSection from './components/SectionComponents/KontaktSection/KontaktSectionComponent';
-import Footer from './components/Footer/FooterComponent';
+import NavBar from './components/NavBar.component';
+import Header from './components/Header.component';
+import TjenesterSection from './components/SectionComponents/Tjenester.component';
+import AttesterSection from './components/SectionComponents/AttesterSection.component';
+import OmMegSection from './components/SectionComponents/OmMegSection.component';
+import KontaktSection from './components/SectionComponents/KontaktSection.component';
+import Footer from './components/Footer.component';
 
 import { useEffect, useState } from 'react';
 
@@ -27,8 +27,10 @@ function App() {
           <NavBar siteContent={siteContent} />
           <Header siteContent={siteContent} />
           <TjenesterSection siteContent={siteContent} />
-          <KundeanbefalingerSection siteContent={siteContent} />
           <OmMegSection siteContent={siteContent} />
+          {siteContent.Kundeanbefalinger.Anbefalinger.length > 0 && (
+            <AttesterSection siteContent={siteContent} />
+          )}
           <KontaktSection siteContent={siteContent} />
           <Footer />
         </div>

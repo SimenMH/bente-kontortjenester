@@ -1,0 +1,46 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  &__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: $primary-color;
+  }
+
+  &__Subtitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &__Menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+
+    @media #{$mq-md} {
+      display: none;
+    }
+
+    li {
+      display: flex;
+      height: 100%;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+
+        &:hover {
+          color: #2b29a4;
+        }
+      }
+    }
+  }
+}

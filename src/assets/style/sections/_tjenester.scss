@@ -1,0 +1,154 @@
+.Tjenester {
+  padding-top: 80px;
+
+  &__Title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+
+    @media #{$mq-md} {
+      font-size: 32px;
+      line-height: 42px;
+    }
+
+    @media #{$mq-s} {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+
+  &__Subtext {
+    color: #4c4c4c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 600px;
+  }
+
+  &__CardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px 40px;
+    margin-top: 100px;
+
+    @media #{$mq-lg} {
+      gap: 75px 20px;
+    }
+
+    @media #{$mq-md} {
+      grid-template-columns: 1fr;
+    }
+
+    @media #{$mq-xs} {
+      gap: 40px;
+      margin-top: 40px;
+    }
+  }
+
+  &__Card {
+    position: relative;
+    display: flex;
+    height: 120px;
+    width: 100%;
+    max-width: 580px;
+    border: 1px solid #b6b6b6;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+
+    @media #{$mq-xs} {
+      height: 100px;
+    }
+  }
+
+  &__CardImg {
+    height: 200px;
+    align-self: end;
+    margin-bottom: -17px;
+
+    @media #{$mq-lg} {
+      height: 175px;
+    }
+
+    @media #{$mq-md} {
+      height: 200px;
+    }
+
+    @media #{$mq-xs} {
+      height: 150px;
+      margin-bottom: -14px;
+    }
+  }
+
+  &__CardText {
+    color: $dark-grey;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    @media #{$mq-xs} {
+      font-size: 14px;
+    }
+  }
+
+  &__MoreText {
+    color: $dark-grey;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 120px;
+    padding-top: 120px;
+    border-top: solid 1px #000;
+
+    @media #{$mq-md} {
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 60px;
+      padding-top: 60px;
+    }
+
+    @media #{$mq-s} {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  &__MoreTitle {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+    @media #{$mq-md} {
+      font-size: 32px;
+      line-height: 42px;
+    }
+
+    @media #{$mq-s} {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+
+  &__ExpandArrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: 0.5s;
+
+    &--active {
+      transform: scaleY(-100%);
+    }
+  }
+
+  &__ExpandButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+}
