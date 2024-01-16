@@ -33,7 +33,7 @@
     margin-left: min(calc(-400px + 30%), -50px);
 
     @media #{$mq-lg} {
-      margin-top: 250px;
+      // margin-top: 250px;
     }
 
     @media #{$mq-s} {
@@ -75,6 +75,16 @@
 
     @media #{$mq-s} {
       font-size: 32px;
+    }
+  }
+
+  &--hide-portrait {
+    .OmMeg__Portrait {
+      display: none;
+    }
+
+    .OmMeg__Card {
+      margin: 0;
     }
   }
 }

@@ -3,7 +3,7 @@ import Portrait from '../../assets/media/portrait.jpg';
 function OmMegSection({ siteContent }) {
   return (
     <div className='Section' id='om-meg'>
-      <div className='Section__Content OmMeg'>
+      <div className='Section__Content OmMeg OmMeg--hide-portrait'>
         <div className='OmMeg__Portrait'>
           <img src={Portrait} alt='portrett' />
         </div>
