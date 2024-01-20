@@ -8,8 +8,8 @@ export const sendEmail = async formContent => {
       name: formContent.name,
       email: formContent.email,
       message: formContent.message,
-    }
-    // process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    },
+    process.env.REACT_APP_EMAILJS_PUBLIC_KEY
   );
 
   if (response.status !== 200) {
