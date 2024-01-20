@@ -1,3 +1,5 @@
+import navigateTo from '../utils/navigateTo';
+
 import headerImage from '../assets/media/header-image.png';
 import Ellipses from '../assets/media/svg/ellipses.svg';
 
@@ -13,9 +15,8 @@ function Header({ siteContent }) {
           </div>
           <a
             className='PrimaryButton'
-            href='mailto: post@benko.no'
-            target='_blank'
-            rel='noreferrer'
+            href='#kontakt'
+            onClick={e => navigateTo(e, 'kontakt')}
           >
             Bestill gratis konsultasjon
           </a>

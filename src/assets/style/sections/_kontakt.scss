@@ -34,6 +34,37 @@
     gap: 16px;
   }
 
+  &__ConsultationFormContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  &__ConsultationFormButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+    .Kontakt__Button {
+      &--disabled {
+        background-color: #b4b4db;
+        cursor: default;
+
+        &:hover {
+          background-color: #b4b4db;
+        }
+      }
+
+      @media #{$mq-s} {
+        font-size: 18px;
+        width: 120px;
+        padding: 14px;
+      }
+    }
+  }
+
   &__Button,
   &__EmailButton {
     background: #fff;
@@ -70,6 +101,19 @@
 
     @media #{$mq-s} {
       font-size: 18px;
+    }
+  }
+
+  &__StatusText {
+    background-color: #36ff9a;
+    padding: 12px;
+    border-radius: 5px;
+
+    &--success {
+      background-color: #36ff9a;
+    }
+    &--error {
+      background-color: #ff8f8f;
     }
   }
 
