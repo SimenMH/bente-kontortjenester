@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const fetchSiteContent = async () => {
-      var response = await fetch('https://www.benko.no/site-content.json');
+      var response = await fetch('https://api.benko.no/site-content.json');
       var json = await response.json();
       setSiteContent(json);
     };
