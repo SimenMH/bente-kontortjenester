@@ -1,6 +1,6 @@
 {
   "Header": {
-    "Tittel": "Regnskapsassistenten",
+    "Tittel": "Din Regnskapsassistent",
     "Underskrift": "En hjelpende hånd for deg som ønsker å føre ditt eget regnskap uten regnskapsfører."
   },
   "Tjenester": {
@@ -10,43 +10,30 @@
       "Tittel": "Et rimelig alternativ til regnskapsfører",
       "Underskrift": "",
       "Tekst": [
-        "Regnskapstjenester kan være både tidkrevende og kostbare. Mange små bedrifter og selvstendig næringsdrivende velger derfor å føre regnskapet selv, men kan likevel føle seg usikre på om alt gjøres riktig og effektivt.",
-        "Jeg har kunnskapen, erfaringen og ekspertisen som trengs, og viser deg hvordan du enkelt kan føre regnskapet selv samtidig som du kan være trygg på at alt blir håndtert riktig.",
+        "Regnskapstjenester kan være både tidkrevende og kostbare, det er mange lover og regler å forholde seg til og en regnskapsfører tar ofte mellom kr 1000 og 1500 pr time. Mange små bedrifter og selvstendig næringsdrivende velger derfor å føre regnskapet selv, men kan likevel føle seg usikre på om alt gjøres riktig og effektivt.",
+        "Jeg har kunnskapen, erfaringen og ekspertisen, og viser deg hvordan du enkelt kan føre regnskapet selv samtidig som du kan være trygg på at alt blir håndtert riktig.",
         "Du velger selv hva og hvor mye du ønsker å gjøre på egenhånd, jeg kontrollerer at alt blir gjort på riktig måte og veileder deg der du er usikker. Sammen jobber vi med forberedelser, etablerer rutiner og sørger for at du har de riktige systemene på plass. I tillegg tilbyr jeg veiledning og råd om mer effektive metoder. ",
         "Dersom du foretrekker å håndtere størstedelen av arbeidet selv, vil du gradvis trenge færre veiledningstimer. Vil du gjøre minst mulig løser vi det også uten at det koster en formue.",
-        "Du vil være ansvarlig for selve bokføringen og rapporteringen, men med enkle rutiner og riktig oppsett krever det ingen forkunnskaper og minimal tidsinvestering.",
+        "Du vil være ansvarlig for selve bokføringen og rapporteringen, men med enkle rutiner og riktig tilrettelegging krever det minimalt med forkunnskaper og tidsinvestering.",
         "I tillegg får du bedre oversikt og verdifull innsikt i regnskapet ditt."
       ]
     }
   },
   "Kundeanbefalinger": {
     "Tittel": "Uttalelser fra kunder",
-
-    "Anbefalinger": [
-      {
-        "Tekst": "Jeg hadde null erfaring og kunnskap om regnskap og bokføring og betalte relativt mye for at et regnskapsbyrå skulle ta seg av alt. Men jeg syntes ikke den tjenesten jeg mottok sto i forhold til den høye prisen jeg betalte. Med kyndig veiledning fører jeg nå regnskapet selv. Jeg bruker noen få timer i måneden på dette og Bente tilrettelegger og gjør det så enkelt og oversiktlig at hvem som helst kan klare det.",
-        "Forfatter": "Per Ivars Tømrerservice"
-      },
-      {
-        "Tekst": "Bente er meget dyktig og nøyaktig i det hun driver med og regnskapet ditt er i trygge hender med henne på laget. Jeg har også spart mye penger ved at hun har tipset meg om skattefordeler og fradrag jeg ikke visste om.",
-        "Forfatter": "Simen M.H / Frilans Utvikler"
-      },
-      {
-        "Tekst": "Etter at jeg startet samarbeidet med BenKo har jeg fått en helt ny forståelse for hvordan det regnskapsmessige fungerer og hva som påvirker resultatet. Jeg hadde i utgangspunktet ingen interesse for den delen av driften men vårt samarbeid har gitt meg verdifull innsikt i selskapets økonomi.",
-        "Forfatter": "Maria / Interiørdesignere"
-      }
-    ]
+    "Anbefalinger": []
   },
   "OmMeg": {
     "Tittel": "Om meg",
     "Navn": "Bente S. Herland",
     "Jobbtittel": "Regnskapskonsulent",
     "Tekst": [
-      "Mange års erfaring med regnskap, lønn, avstemming, årsoppgjør, prosjektregnskap, analyser m.m.",
-      "Bakgrunn bl.a. som Regnskapsansvarlig og Fagansvarlig hos store og mellomstore bedrifter",
+      "Mange års erfaring med regnskap, lønn, avstemming, årsoppgjør m.m.",
+      "Bakgrunn bl.a. som Regnskapsansvarlig og Fagansvarlig hos mellomstore og større bedrifter.",
       "Erfaring med Enkeltpersonforetak, AS, ASA, ANS og DA",
       "Gode referanser",
-      "Holder til i Bergen, men tar oppdrag over hele landet."
+      "Holder til i Bergen, men tar oppdrag over hele landet.",
+      "Pris er p.t. kr 550 pr time."
     ]
   }
 }
